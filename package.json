@@ -1,0 +1,29 @@
+{
+  "name": "markdown-it-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf lib/ && babel src -d lib -D",
+    "dev": "npm run build -- -w"
+  },
+  "keywords": [
+    "imcuttle",
+    "markdown-it",
+    "markdown-it-github"
+  ],
+  "author": "imcuttle",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.2",
+    "markdown-it": "^8.4.1",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "url-join": "^4.0.0"
+  }
+}

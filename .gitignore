@@ -1,0 +1,10 @@
+.idea/
+~*
+dist/
+lib/
+node_modules/
+coverage/
+public/
+.dist/
+.entry/
+**/.DS_Store
